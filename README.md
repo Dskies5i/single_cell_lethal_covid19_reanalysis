@@ -21,17 +21,29 @@ End-to-end single-cell RNA-seq reanalysis using **Scanpy** and **scVI** (`scvi-t
 #### 1. Sample Distribution & Leiden Clustering
 ![Sample and Leiden UMAP](figures/01_umap_sample_leiden.png)
 
-#### 2. Cell-Type Annotation & scVI Denoised Marker Profiles
-![Annotated UMAP](figures/02_annotated_umap_markers.png)
+#### 2. Canonical Marker Gene UMAPs
+![Marker Gene UMAPs](figures/02_marker_gene_umaps.png)
 
-#### 3. Cellular Composition Shift (COVID-19 vs. Control)
-![Cell Type Composition](figures/03_composition_shift.png)
+#### 3. scVI Denoised Expression Across Leiden Clusters
+![scVI Denoised Dotplot](figures/03_scvi_denoised_dotplot.png)
 
-#### 4. Differential Expression & AT1 / AT2 State Transitions
-![AT1 and AT2 Heatmap](figures/04_de_global_and_at1_at2.png)
+#### 4. Annotated Cell Types
+![Annotated Cell Types UMAP](figures/04_annotated_cell_types_umap.png)
 
-#### 5. Cell-Type-Specific COVID-19 Response (Interaction DE)
-![Cell-Type-Specific Response Heatmap](figures/05_interaction_de_heatmap.png)
+#### 5. Relative Cell Type Composition (COVID-19 vs. Control)
+![Relative Cell Composition](figures/05_relative_cell_composition.png)
+
+#### 6. Cell Type Abundance Across Conditions
+![Cell Type Abundance](figures/06_cell_type_abundance.png)
+
+#### 7. AT1 vs. AT2 Lineage & Transitional State Heatmap
+![AT1 and AT2 DE Heatmap](figures/07_at1_at2_de_heatmap.png)
+
+#### 8. Global Differential Expression (COVID-19 vs. Control)
+![Global DE Heatmap](figures/08_global_de_covid_vs_control.png)
+
+#### 9. Cell-Type-Specific COVID-19 Response (Interaction DE)
+![Interaction DE Heatmap](figures/09_interaction_de_celltype_response.png)
 
 ---
 
