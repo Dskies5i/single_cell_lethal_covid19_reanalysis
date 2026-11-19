@@ -2,9 +2,10 @@
 
 End-to-end single-cell RNA-seq reanalysis using **Scanpy** and **scVI** (`scvi-tools`) to characterize cellular composition, lineage remodeling, and compartment-specific transcriptional responses in COVID-19 versus control lung tissue.
 
-### 📄 Full Analysis & Code Walkthrough
-* **[View Complete PDF Run (`reports/lethal_covid19_sc_rna_full_analysis_pt1.pdf`)](reports/lethal_covid19_sc_rna_full_analysis_pt1.pdf) and [(`reports/lethal_covid19_sc_rna_full_analysis_pt2.pdf`)](reports/lethal_covid19_sc_rna_full_analysis_pt2.pdf)** — Includes workflow execution, marker gene evaluation, scVI denoising, composition summaries, and differential expression analyses.
-
+### 📄 Full Analysis & Code Walkthrough (222-Page Notebook Split into 2 Parts)
+* **Part 1:** [`reports/lethal_covid19_sc_rna_full_analysis_pt1.pdf`](reports/lethal_covid19_sc_rna_full_analysis_pt1.pdf) — Initial workflow setup, quality control, scVI integration, clustering, and marker screening.
+* **Part 2:** [`reports/lethal_covid19_sc_rna_full_analysis_pt2.pdf`](reports/lethal_covid19_sc_rna_full_analysis_pt2.pdf) — Cell-type annotation, composition comparisons, AT1/AT2 analysis, and differential expression.
+* **Source Notebook:** [`covid19_single_cell.ipynb`](covid19_single_cell.ipynb)
 ---
 
 ### 🔑 Key Biological Takeaways
