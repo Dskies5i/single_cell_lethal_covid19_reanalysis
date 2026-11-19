@@ -49,3 +49,10 @@ End-to-end single-cell RNA-seq reanalysis using Scanpy and scVI (`scvi-tools`) t
 ### 🧰 Methods & Stack
 * **Frameworks:** `Python`, `Scanpy`, `scVI-tools` (`scVI` latent representation, denoised expression, and differential expression)
 * **Core Steps:** Quality control & marker panel screening, scVI integration & Leiden clustering, cell-type annotation, compositional comparison, global DE, AT1/AT2 comparative profiling, and cell-type interaction DE.
+
+---
+
+## Data & Citation
+
+- **Source Dataset:** GEO accession `GSE171524` (Melms et al., *Nature*, 2021).
+- **Repository Citation:** If you use or reference this reanalysis code, please cite this repository (`Dskies5i/single_cell_lethal_covid19_reanalysis`) along with the original study.
